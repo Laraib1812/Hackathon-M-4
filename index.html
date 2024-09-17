@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <form id="resumeForm">
+        <div class="mainHeading">
+            <h1>Editable Resume Generator</h1>
+        </div>
+        <div class="formMaterial">
+            <div class="PersonalInfo">
+                <h3>Personal Information</h3>
+                <div class="forPAdding">
+                    <label for="Name" aria-required="true">Name: </label>
+                    <input type="text" class="input" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="forPAdding">
+                    <label for="Email" aria-required="true">E-mail:</label>
+                    <input type="email" name="email" class="input" id="email" placeholder="Enter your E-mail">
+                </div>
+                <div class="forPAdding">
+                    <label for="Phone" aria-required="true">Phone:</label>
+                    <input type="tel" class="input" name="number" id="phone" placeholder="Enter your Contact Number">
+                </div>
+            </div>
+            <div class="education">
+                <h3>Educational Information</h3>
+                <div class="forPAdding">
+                    <label for="degree">University-Degree (conditional):</label>
+                    <input type="text" class="input" id="degree" placeholder="Degree you are enrolled-in">
+                </div>
+                <div class="forPAdding">
+                    <label for="University-Name">University-Name (conditional):</label>
+                    <input type="text" class="input" id="university" placeholder="Enter your University name">
+                </div>
+                <div class="forPAdding">
+                    <label for="Intermediate-Field">Intermediate-Field (conditional):</label>
+                    <input type="text" class="input" id="inter" placeholder="Enter your College Field">
+                </div>
+                <div class="forPAdding">
+                    <label for="College-Name">College-Name (conditional):</label>
+                    <input type="text" name="collegeName" class="input"  id="college" placeholder="College where you studied">
+                </div>
+                <div class="forPAdding" >
+                    <label for="Matric-Field">Matric-Field (must):</label>
+                    <input type="text" id="matric" class="input" placeholder="Enter you Matric Field ">
+                </div>
+                <div class="forPAdding">
+                    <label for="School-Name">School-Name (must):</label>
+                    <input type="text" id="school" class="input" placeholder="School where you studied">
+                </div>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <label for="skills">Skills you have (separate your skill with coma): </label>
+                <input type="text" id="skills" class="input" placeholder="Insert , between your skills" id="skill">
+            </div>
+            <div class="experience">
+                <h3>Work Experience</h3>
+                <label for="experience">Work Experience (in years):</label>
+                <input type="text" id="experience" class="input" placeholder="Write `Fresher` if you dont have" id="experience">
+            </div>
+        </div>
+        <div class="btn">
+       <button class="Submit">Generate Resume</button>
+       </div>
+     </form>
+     </div>
+    
+    <div id="resumeOutput" contenteditable="true">
+        <h2 style="text-align: center;">Generated Resume (Editable) : </h2>
+    </div>
+
+  <script src="script.js" type="module"></script>
+
+</body>
+</html>

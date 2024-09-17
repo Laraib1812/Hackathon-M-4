@@ -1,0 +1,69 @@
+
+body{
+    background: #e2e7e7;
+    padding: 2%;
+}
+
+.container{
+    background: #fcf8f8;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+.container .mainHeading{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.container .mainHeading .formMaterial{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .mainHeading .formMaterial .PersonalInfo{
+    height: 3;
+    width: 30;
+    background: #000;
+}
+
+.forPAdding{
+    margin-top: 3%;    
+}
+
+.input{
+    height: 30px;
+    width: 100%;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.btn{
+    background: #e2e7e7;
+    border-radius: 5%;
+    align-items: center;
+    height: 2%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+#resumeOutput{
+    background: #fcf8f8;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 2%;
+    margin-top: 3%;
+    padding-right: 40%;
+
+}
